@@ -24,9 +24,20 @@
      </nav>
 
      <div class="header-contacts">
-         <p class="nav-item"><a href="mailto:info@example.com" class="link header-link">info@example.com</a></p>
-         <p class="nav-item"><a href="telto:+380991111111" class=" link header-link">+38 099 111 11 11</a></p>
-      </div>
+      <p class="nav-item">
+        <a class="link header-link" href="mailto:info@example.com">
+        <svg class="icon-contacts" width="16" height="12">
+          <use href="images/icons.svg#icon-envelope"></use>
+        </svg>
+       info@example.com</a>
+     </p>
+      <p class="nav-item">
+        <a class="link header-link" href="telto:+380991111111">
+       <svg class="icon-contacts" width="10" height="16">
+         <use href="images/icons.svg#icon-smartphone"></use>
+       </svg>+38 099 111 11 11</a>
+     </p>
+   </div>
     </div>
   </header>
 
@@ -44,69 +55,86 @@
 
             <ul class="projects-gallery">
              
-                <li  class="projects-item">
+                <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/1.jpg" alt="Веб-сайт Технокряк" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Технокряк</h2>
                       <p class="projects-description">Веб-сайт</p>
                   </div>
-                    
+                </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/2.jpg" alt="Дизайн Постерa New Orlean vs Golden Star" width="370" height="294">
                      <div class="projects-border">
                       <h2 class="projects-name">Постер New Orlean vs Golden Star</h2>
                       <p class="projects-description">Дизайн</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/3.jpg" alt="Приложение Ресторанa Seafood" width="370" height="294">
                      <div class="projects-border">
                       <h2 class="projects-name">Ресторан Seafood</h2>
                       <p class="projects-description">Приложение</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/4.jpg" alt="Маркетинг Проект Prime" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Проект Prime</h2>
                       <p class="projects-description">Маркетинг</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/5.jpg" alt="Приложение Проект Boxes" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Проект Boxes</h2>
                       <p class="projects-description">Приложение</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/6.jpg" alt="Веб-сайт Inspiration has no Borders" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Inspiration has no Borders</h2>
                       <p class="projects-description">Веб-сайт</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/7.jpg" alt="Дизайн Издания Limited Edition" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Издание Limited Edition</h2>
                       <p class="projects-description">Дизайн</p>
                     </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/8.jpg" alt="Маркетинг Проект LAB" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Проект LAB</h2>
                       <p class="projects-description">Маркетинг</p>
                    </div>
+                  </a>
                 </li>
                 <li class="projects-item">
+                  <a class="projects-link" href="">
                     <img class="img" src="images-portfolio/9.jpg" alt="Приложение Growing Business" width="370" height="294">
                     <div class="projects-border">
                       <h2 class="projects-name">Growing Business</h2>
                       <p class="projects-description">Приложение</p>
                    </div>
+                  </a>
                 </li>
             </ul>
          </div>
@@ -114,7 +142,9 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container ">
+        <div class="footer-container">
+        <div class="container-contacts-footer">
        <a class="logo web footer-logo" href="index.html" >Web<span class="studio-footer">Studio</span></a>
 
        <address class="address">
@@ -122,6 +152,44 @@
            <a class="address-mail footer-hover" href="mailto:info@example.com" >info@example.com</a><br>
            <a class="address-mail footer-hover" href="telto:+380991111111" >+38 099 111 11 11</a>
        </address>
+     </div>
+
+     <div class="container-contacts-footer">
+       <p>Присоединяйтесь</p>
+
+       <ul class="social-icons">
+         <li class="social-icons-item">
+           <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer" area-label="instagram">
+             <svg class="icon footer-icon">
+               <use href="images/icons.svg#icon-instagram"></use>
+             </svg>
+           </a>
+         </li>
+         <li class="social-icons-item">
+           <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer" area-label="twitter">
+             <svg class="icon footer-icon">
+               <use href="images/icons.svg#icon-twitter"></use>
+             </svg>
+           </a>  
+         </li>
+         <li class="social-icons-item">
+           <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer" area-label="facebook">
+             <svg class="icon footer-icon">
+               <use href="images/icons.svg#icon-facebook"></use>
+             </svg>
+           </a>
+         </li>
+         <li class="social-icons-item">
+           <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer" area-label="linkedin">
+             <svg class="icon footer-icon">
+               <use href="images/icons.svg#icon-linkedin"></use>
+             </svg>
+           </a>
+         </li>
+       </ul>
+   </li>
+     </div>
+   </div>
      </div>
    </footer>
 
