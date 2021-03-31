@@ -440,14 +440,15 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 .address-mail {
     display: inline-block;
-    margin-bottom: 9px;
     text-decoration: none;
     color: var(--text-color-accent);
     opacity: 0.6;
 }
-.footer-hover {
-    margin-bottom: 9px;
+.footer-hover { 
     font-weight: 400;
+}
+.footer-hover:not(:last-child) {
+    margin-bottom: 9px;
 }
 .footer-hover:focus,
 .footer-hover:hover {
@@ -455,6 +456,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 .container-contacts-footer>p {
+    margin-top: 15px;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -471,14 +473,19 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
     margin-top: calc(-1 * var(--card-set-gap));
     margin-left: calc(-1 * var(--card-set-gap));
 }
 .container-contacts-footer {
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
-    flex-basis: calc((100% - 3 * 30px) / 3);
+    /*flex-basis: calc((100% - 3 * 30px) / 3);*/
+    flex-basis: calc((50% - 45px) / 2);
+}
+.big-container-contacts-footer {
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+    flex-basis: calc(50% - 15px);
 }
 .social-icons-link:hover,
 .social-icons-link:focus {
